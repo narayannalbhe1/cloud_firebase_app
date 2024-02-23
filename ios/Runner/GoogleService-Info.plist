@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>API_KEY</key>
+	<string>AIzaSyAPsdC9r7j2PahDPBdow8ojwqbN4XF9Kso</string>
+	<key>GCM_SENDER_ID</key>
+	<string>162337146243</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.flutive.cloudFirebaseApp</string>
+	<key>PROJECT_ID</key>
+	<string>cloudfirebase-1f8fa</string>
+	<key>STORAGE_BUCKET</key>
+	<string>cloudfirebase-1f8fa.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:162337146243:ios:b593dba5b000eecd5b22b6</string>
+</dict>
+</plist>

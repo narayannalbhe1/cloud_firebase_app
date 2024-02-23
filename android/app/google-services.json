@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "162337146243",
+    "project_id": "cloudfirebase-1f8fa",
+    "storage_bucket": "cloudfirebase-1f8fa.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:162337146243:android:1c6cd9a3a35883525b22b6",
+        "android_client_info": {
+          "package_name": "com.flutive.cloud_firebase_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCm_U4MogrRt-TGsvLG0w6PIY7pisQFn4U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
