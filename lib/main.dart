@@ -23,8 +23,8 @@ class MyApp extends StatelessWidget {
     return GetMaterialApp(
       debugShowCheckedModeBanner: false,
       // home: SplashScreen(),
-      // home: CheckUser(),
-      home: PhoneAuth(),
+      home: CheckUser(),
+      // home: PhoneAuth(),
     );
   }
 }
