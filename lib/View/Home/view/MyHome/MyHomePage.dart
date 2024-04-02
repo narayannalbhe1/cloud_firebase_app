@@ -1,5 +1,6 @@
 import 'dart:io';
 
+import 'package:cloud_firebase_app/Firebase_Database/CRUD_Operations/crud_operation.dart';
 import 'package:cloud_firebase_app/View/Auth/Login/login_screen.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
@@ -30,8 +31,30 @@ class _MyHomePageState extends State<MyHomePage> {
         onWillPop: () {
           return  showAlertExit();
         },
-        child: Center(
-          child: Text('My Home Page'),
+        child: Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
+          mainAxisAlignment: MainAxisAlignment.start,
+          children: [
+            Padding(
+              padding: const EdgeInsets.all(15.0),
+              child: Container(
+                height: 50,
+                width: 200,
+                decoration: BoxDecoration(
+                  color: Colors.deepPurple,
+                  borderRadius: BorderRadius.all(Radius.circular(10))
+                ),
+                child: TextButton(
+                    onPressed: (){
+                  Navigator.push(context, MaterialPageRoute(builder: (context){
+                    return CrudOperation();
+                  }));
+                }, child: Text('Go to Crud Operation Screen',style: TextStyle(
+                  color: Colors.white
+                ),)),
+              ),
+            )
+          ],
         ),
       ),
     );

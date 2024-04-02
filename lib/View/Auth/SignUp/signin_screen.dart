@@ -49,7 +49,7 @@ class _SignInScreenState extends State<SignInScreen> {
             child: Center(
               child: Container(
                 width: 400,
-                height: 400,
+                height: 450,
                 decoration: BoxDecoration(
                   borderRadius: BorderRadius.circular(15.0),
                   color: Colors.white38
