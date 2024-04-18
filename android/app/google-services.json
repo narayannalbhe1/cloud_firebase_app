@@ -1,18 +1,24 @@
 {
   "project_info": {
     "project_number": "162337146243",
+    "firebase_url": "https://cloudfirebase-1f8fa-default-rtdb.firebaseio.com",
     "project_id": "cloudfirebase-1f8fa",
     "storage_bucket": "cloudfirebase-1f8fa.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:162337146243:android:1c6cd9a3a35883525b22b6",
+        "mobilesdk_app_id": "1:162337146243:android:628d62529794a7c55b22b6",
         "android_client_info": {
-          "package_name": "com.flutive.cloud_firebase_app"
+          "package_name": "com.example.login"
         }
       },
-      "oauth_client": [],
+      "oauth_client": [
+        {
+          "client_id": "162337146243-m6jmt6cpgimh6amo7amqn5513nnavpu7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
       "api_key": [
         {
           "current_key": "AIzaSyCm_U4MogrRt-TGsvLG0w6PIY7pisQFn4U"
@@ -20,7 +26,99 @@
       ],
       "services": {
         "appinvite_service": {
-          "other_platform_oauth_client": []
+          "other_platform_oauth_client": [
+            {
+              "client_id": "162337146243-m6jmt6cpgimh6amo7amqn5513nnavpu7.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "162337146243-beq9atk54ruohanulu44rtn4i62c1g0l.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.flutive.cloudFirebaseApp"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:162337146243:android:c7ca42c926cc8e525b22b6",
+        "android_client_info": {
+          "package_name": "com.example.service_superior"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "162337146243-m6jmt6cpgimh6amo7amqn5513nnavpu7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCm_U4MogrRt-TGsvLG0w6PIY7pisQFn4U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "162337146243-m6jmt6cpgimh6amo7amqn5513nnavpu7.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "162337146243-beq9atk54ruohanulu44rtn4i62c1g0l.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.flutive.cloudFirebaseApp"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:162337146243:android:1c6cd9a3a35883525b22b6",
+        "android_client_info": {
+          "package_name": "com.flutive.cloud_firebase_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "162337146243-fsfcjofde2aib1l8hm76bgou0nfkitgm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.flutive.cloud_firebase_app",
+            "certificate_hash": "abc37a733a6d3a757f2bfaf2119429ea52b643e5"
+          }
+        },
+        {
+          "client_id": "162337146243-m6jmt6cpgimh6amo7amqn5513nnavpu7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCm_U4MogrRt-TGsvLG0w6PIY7pisQFn4U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "162337146243-m6jmt6cpgimh6amo7amqn5513nnavpu7.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "162337146243-beq9atk54ruohanulu44rtn4i62c1g0l.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.flutive.cloudFirebaseApp"
+              }
+            }
+          ]
         }
       }
     }

@@ -1,6 +1,7 @@
 import 'package:cloud_firebase_app/Cloud%20Storage/FirebaseCloudDb/signup_page.dart';
 import 'package:cloud_firebase_app/Firebase_Database/firebase_add_db/firebase_add_data.dart';
 import 'package:cloud_firebase_app/Firebase_Database/firebase_db/show_data.dart';
+import 'package:cloud_firebase_app/SignUpAuth/auth/SignUpAuth.dart';
 import 'package:cloud_firebase_app/View/Auth/Login/check_user.dart';
 import 'package:cloud_firebase_app/View/PhoneAuth/phone_auth.dart';
 import 'package:cloud_firebase_app/View/Splash/splash_screen.dart';
@@ -36,12 +37,11 @@ class MyApp extends StatelessWidget {
     return GetMaterialApp(
       debugShowCheckedModeBanner: false,
       // home: SplashScreen(),
-      home: CheckUser(),
+      // home: CheckUser(),
       // home: PhoneAuth(), // through the firebase otp
       // home : ShowData(), // fetch data through firebase firestore
       // home : SignUpPage(),
-      //
-
+      home: SignUpAuth(),
     );
   }
 }
